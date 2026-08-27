@@ -1,0 +1,12 @@
+{
+  "test_set_isolated": true,
+  "stratified_split": true,
+  "cross_validation_completed": true,
+  "imbalance_strategies_compared": true,
+  "hyperparameter_tuning_completed": true,
+  "leakage_audit_completed": true,
+  "calibration_evaluated": true,
+  "threshold_selected_without_test": true,
+  "overfitting_checked": true,
+  "final_test_evaluated": true
+}

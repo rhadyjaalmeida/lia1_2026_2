@@ -1,0 +1,15 @@
+{
+  "train_test_indices_disjoint": true,
+  "split_covers_original_rows": true,
+  "target_not_in_X": true,
+  "train_xy_aligned": true,
+  "test_xy_aligned": true,
+  "stratification_preserved_with_rounding": true,
+  "stratification_difference_pp": 0.01666666666666483,
+  "train_prevalence": 0.15316666666666667,
+  "test_prevalence": 0.15333333333333332,
+  "full_prevalence": 0.1532,
+  "train_size": 12000,
+  "test_size": 3000,
+  "full_size": 15000
+}

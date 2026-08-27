@@ -1,0 +1,3 @@
+model,strategy,best_cv_pr_auc,best_cv_pr_auc_std,best_params,n_candidates_tested
+Decision Tree,none,1.0,0.0,"{""classifier__min_samples_split"": 5, ""classifier__min_samples_leaf"": 1, ""classifier__max_features"": null, ""classifier__max_depth"": 3, ""classifier__criterion"": ""log_loss""}",12
+Random Forest,none,1.0,7.021666937153402e-17,"{""classifier__n_estimators"": 150, ""classifier__min_samples_split"": 20, ""classifier__min_samples_leaf"": 2, ""classifier__max_features"": ""log2"", ""classifier__max_depth"": 16, ""classifier__bootstrap"": true}",12

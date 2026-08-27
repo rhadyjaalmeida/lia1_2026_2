@@ -1,0 +1,80 @@
+# ============================
+# Ambientes virtuais
+# ============================
+.venv/
+venv/
+env/
+ENV/
+
+# ============================
+# Python
+# ============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ============================
+# Jupyter
+# ============================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================
+# Variáveis de ambiente e credenciais
+# ============================
+.env
+.env.*
+*.pem
+*.key
+secrets.yaml
+credentials.json
+
+# ============================
+# Dados (não versionar dados brutos/pesados)
+# ============================
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/README.md
+
+data/processed/*
+!data/processed/.gitkeep
+
+# ============================
+# Modelos treinados (geralmente pesados)
+# ============================
+models/*.pkl
+models/*.joblib
+models/*.h5
+!models/.gitkeep
+
+# ============================
+# Sistema operacional
+# ============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================
+# Editores / IDEs
+# ============================
+.vscode/
+.idea/
+*.swp
+
+# ============================
+# Logs e caches diversos
+# ============================
+*.log
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Execuções legadas preservadas apenas no pacote local
+reports/legacy_previous_run/
+data/legacy_previous_run/

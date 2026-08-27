@@ -1,0 +1,14 @@
+{
+  "model": "Decision Tree",
+  "strategy": "none",
+  "best_params": {
+    "classifier__min_samples_split": 5,
+    "classifier__min_samples_leaf": 1,
+    "classifier__max_features": null,
+    "classifier__max_depth": 3,
+    "classifier__criterion": "log_loss"
+  },
+  "cv_average_precision": 1.0,
+  "cv_average_precision_std": 0.0,
+  "selection_rule": "Tuning apenas no treino; regra de 1 erro-padrão e menor variabilidade entre candidatos tunados elegíveis."
+}

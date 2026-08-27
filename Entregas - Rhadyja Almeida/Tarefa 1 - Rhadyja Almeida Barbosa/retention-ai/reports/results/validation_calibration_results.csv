@@ -1,0 +1,4 @@
+method,pr_auc,roc_auc,brier_score
+uncalibrated,1.0,1.0,0.0
+isotonic,1.0,1.0,0.0
+sigmoid,1.0,1.0,7.475604862132946e-07

@@ -1,0 +1,13 @@
+model,strategy,cv_precision_mean,cv_precision_std,train_precision_mean,cv_recall_mean,cv_recall_std,train_recall_mean,cv_f1_mean,cv_f1_std,train_f1_mean,cv_roc_auc_mean,cv_roc_auc_std,train_roc_auc_mean,cv_pr_auc_mean,cv_pr_auc_std,train_pr_auc_mean,cv_balanced_accuracy_mean,cv_balanced_accuracy_std,train_balanced_accuracy_mean,cv_mcc_mean,cv_mcc_std,train_mcc_mean,n_folds,pr_auc_generalization_gap
+Decision Tree,none,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,5,0.0
+Random Forest,none,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,5,0.0
+XGBoost,none,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,5,0.0
+Decision Tree,class_weight,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,5,0.0
+Random Forest,class_weight,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,5.551115123125783e-17,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,5,0.0
+XGBoost,class_weight,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,5,0.0
+Decision Tree,smotenc,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,5,0.0
+Random Forest,smotenc,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,5,0.0
+XGBoost,smotenc,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,5,0.0
+Logistic Regression,none,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,9.614813431917819e-17,1.0,1.0,0.0,1.0,1.0,0.0,1.0,5,0.0
+Logistic Regression,class_weight,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,9.614813431917819e-17,1.0,1.0,0.0,1.0,1.0,0.0,1.0,5,0.0
+Logistic Regression,smotenc,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,9.614813431917819e-17,1.0,1.0,0.0,1.0,1.0,0.0,1.0,5,0.0

@@ -1,0 +1,9 @@
+method,mean_predicted_probability,observed_fraction_positive
+uncalibrated,0.0,0.0
+uncalibrated,1.0,1.0
+sigmoid,0.00036873156355139936,0.0
+sigmoid,0.00036877690131007895,0.0
+sigmoid,0.997967479674805,1.0
+sigmoid,0.9979688539279167,1.0
+isotonic,0.0,0.0
+isotonic,1.0,1.0

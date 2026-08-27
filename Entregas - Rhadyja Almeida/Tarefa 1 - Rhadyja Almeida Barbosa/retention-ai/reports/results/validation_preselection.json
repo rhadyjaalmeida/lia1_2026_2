@@ -1,0 +1,11 @@
+{
+  "selected_model": "Decision Tree",
+  "selected_strategy": "none",
+  "best_pr_auc_mean": 1.0,
+  "best_pr_auc_std": 0.0,
+  "one_se_cutoff": 1.0,
+  "eligible_candidates": 12,
+  "selected_pr_auc_mean": 1.0,
+  "selected_pr_auc_std": 0.0,
+  "selection_rule": "Regra de 1 erro-padrão no PR-AUC; entre candidatos elegíveis, menor variabilidade, maior Recall, MCC e Precision."
+}

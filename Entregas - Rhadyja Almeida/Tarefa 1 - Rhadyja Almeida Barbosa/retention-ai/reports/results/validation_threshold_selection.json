@@ -1,0 +1,8 @@
+{
+  "default_0_5": 0.49999999999999994,
+  "f1_optimal": 0.05,
+  "f1_at_default": 1.0,
+  "f1_at_optimal": 1.0,
+  "selected_threshold": 0.05,
+  "selection_reason": "Sem custos empresariais parametrizados, o threshold final é o que maximiza F1 nas previsões out-of-fold do conjunto de treino."
+}
