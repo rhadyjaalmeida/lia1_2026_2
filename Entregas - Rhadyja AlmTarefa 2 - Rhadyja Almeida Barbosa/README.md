@@ -8,7 +8,13 @@ Uma solução de Visão Computacional criada para ajudar e-commerces e marketpla
 
 <br>
 
+## ▶️ Acesse o projeto no Google Colab
+
+Todo o desenvolvimento do **CatalogAI** está disponível no Google Colab.
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/11m3KPbjXc9wgTAyQJ0vWQHgmtqfbR3RZ?usp=sharing)
+
+> Clique no botão acima para acessar o notebook completo, acompanhar o treinamento da CNN, visualizar as métricas, gráficos, matriz de confusão e testar as previsões do modelo.
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-Deep%20Learning-FF6F00?logo=tensorflow&logoColor=white)
